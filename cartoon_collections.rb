@@ -14,6 +14,7 @@ end
 
 def long_planeteer_calls# code an argument here
   # Your code here 
+  short_words = ["puff", "go", "two"]
   
 end
 
