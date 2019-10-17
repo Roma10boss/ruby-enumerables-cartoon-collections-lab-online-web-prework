@@ -1,7 +1,7 @@
 def roll_call_dwarves# code an argument here
   # Your code here
-  array =["Doc", "Dopey", "Bashful", "Grumpy"]
-  puts array.each 
+  array =["Doc", "Dopey", "Bashful", "Grumpy"].each_with_object
+  puts array 
 end
 
 def summon_captain_planet# code an argument here
