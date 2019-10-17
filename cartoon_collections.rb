@@ -6,6 +6,8 @@ end
 
 def summon_captain_planet# code an argument here
   # Your code here
+  planeteer_calls = ["earth", "wind", "fire", "water", "heart"].each.upcase do |planeteer_calls|
+    puts planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
