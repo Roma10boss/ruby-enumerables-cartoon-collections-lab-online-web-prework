@@ -16,8 +16,12 @@ def long_planeteer_calls# code an argument here
   # Your code here 
   short_words = ["puff", "go", "two"]
   long_planeteer_calls(short_words)
+  short_words.select{|word| word.length<4}
+  
   assorted_words = ["two", "go", "industrious", "bop"]
 long_planeteer_calls(assorted_words)
+assorted_words.select{|word| word.length<4}
+
 end
 
 def find_the_cheese# code an argument here
