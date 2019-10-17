@@ -7,7 +7,7 @@ end
 def summon_captain_planet# code an argument here
   # Your code here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  planeteer_calls.map ! {|planeteer_calls| planeteer_calls.upcase.map! {|x| x + "!" }} 
+  planeteer_calls.map ! {|planeteer_calls| planeteer_calls.upcasenames.each { |name| puts name + ' is a programmer' }
   puts planeteer_calls
 end
 
